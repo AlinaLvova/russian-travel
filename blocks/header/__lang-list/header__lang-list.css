@@ -1,0 +1,17 @@
+.header__lang-list{
+    margin-top: calc(46px - 28px);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header__lang-list li:first-child{
+    text-decoration-line: underline;
+    color: red;
+}

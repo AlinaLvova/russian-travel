@@ -1,4 +1,10 @@
 .header__lang-link{
-    /*position: relative;*/
-    
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Inter';
+    line-height: 28px;
+    text-decoration: none;
+    text-align: right;
 }
