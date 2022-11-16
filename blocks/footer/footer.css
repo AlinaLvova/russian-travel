@@ -1,8 +1,7 @@
-.header{
+.footer{
     display: flex;
+    margin: 92px 48px 24px;
     flex-direction: row;
     justify-content: space-between;
-    margin: 28px 48px 0 48px;
-    height: 53px;
+    align-items: flex-start;
 }
-
