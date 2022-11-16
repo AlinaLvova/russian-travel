@@ -4,3 +4,31 @@
     margin: 0;
     display: block;
 }
+
+@media screen and (max-width:1024px){
+    .lead__polka{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .lead__polka{
+        max-width: 768px;
+        max-height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .lead__polka{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:320px){
+    .lead__polka{
+        max-width: 320px;
+        max-height: 200px;
+    }
+}

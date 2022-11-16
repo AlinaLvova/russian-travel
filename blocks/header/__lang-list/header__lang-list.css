@@ -10,7 +10,3 @@
     font-style: normal;
     font-weight: 400;
 }
-
-.header__lang-list li:first-child{
-    text-decoration-line: underline;
-}

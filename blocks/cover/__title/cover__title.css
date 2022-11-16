@@ -5,4 +5,31 @@
     font-size: 72px;
     line-height: 76px;
     max-width: 560px;
+    text-align: center;
+    margin: 0;
  }
+
+
+ @media screen and (max-width: 767px){
+    .cover__title{
+        font-size: 6vw;
+        line-height: 1;
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .cover__title {
+        font-size: 9vw;
+        line-height: 1;
+        max-width: 253px;
+    }
+}
+
+ @media screen and (max-width:320px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 254px;
+    }
+}

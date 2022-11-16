@@ -1,10 +1,19 @@
-.header__lang-link{
+.header__lang-link {
     display: flex;
     flex-direction: row;
     font-size: 24px;
-    color: #fff;
     font-family: 'Inter';
     line-height: 28px;
     text-decoration: none;
     text-align: right;
+    font-weight: 400;
+    color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        flex-direction: column;
+        font-size: 18px;
+        line-height: 20px;
+    }
 }
