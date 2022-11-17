@@ -1,12 +1,11 @@
 .lead__polka{
-    max-width: 984px;
-    max-height: 615px;
+    width: 100%;
     margin: 0;
     display: block;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (min-width:984px){
     .lead__polka{
-        width: 100%;
+        max-width: 984px;
     }
 }
