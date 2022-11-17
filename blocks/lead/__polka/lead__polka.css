@@ -9,3 +9,9 @@
         max-width: 984px;
     }
 }
+
+@media screen and (max-width:1024px){
+    .lead__polka{
+        max-width: 928px;
+    }
+}
