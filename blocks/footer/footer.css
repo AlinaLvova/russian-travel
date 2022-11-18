@@ -1,9 +1,9 @@
 .footer{
     display: flex;
     margin: 92px 48px 24px;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: right;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 768px) {
@@ -12,10 +12,17 @@
     }
 }
 
-@media screen and (max-width: 665px){
+@media screen and (max-width: 658px){
     .footer{
         flex-direction: column;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer{
         gap: 48px;
         margin: 64px 16px 24px;
     }
 }
+
