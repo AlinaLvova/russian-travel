@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 510px){
     .footer__nav-links{
         flex-direction: column;
         gap: 32px;
