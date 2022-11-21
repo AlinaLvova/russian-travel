@@ -8,6 +8,13 @@
     text-align: center;
 }
 
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .cover__subtitle{
+        line-height: calc((16px + 6 * (100vw - 320px) / 448));
+        font-size: calc(14px + 4 * (100vw - 320px) / 448);
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__subtitle{
         font-size: 14px;

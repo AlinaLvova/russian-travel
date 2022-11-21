@@ -8,7 +8,6 @@
     margin: 0;
  }
 
-
  @media screen and (max-width: 767px){
     .cover__title{
         font-size: 6vw;
@@ -20,7 +19,7 @@
 @media screen and (max-width: 470px){
     .cover__title {
         font-size: 9vw;
-        max-width: 253px;
+        max-width: 300px;
     }
 }
 
